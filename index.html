@@ -9,7 +9,6 @@
 <!-- Favicons -->
 <link href="assets/img/fevicon-icon.png" rel="icon">
 <link href="assets/img/fevicon-icon.png.png" rel="apple-touch-icon">
-
 <link href="" rel="stylesheet">
 <!-- Vendor CSS Files -->
 <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,7 +24,7 @@
 </head>
 <body>
 <!-- ======= Header ======= -->
-<header id="header" class="header fixed-top" data-scrollto-offset="0">
+<header id="header" class="header" data-scrollto-offset="0">
   <div class="TopBar-Sec">
     <div class="container">
       <div class="styled-select"><img src="assets/img/language.png" width="25">
@@ -34,11 +33,11 @@
           <option>Spanish</option>
           <option>Greek</option>
         </select>
-         </div>
+      </div>
       <button>Login/Sign Up</button>
     </div>
   </div>
-  <div class="container d-flex align-items-center justify-content-between navbar-sec"> <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+  <div class="container-fluid d-flex align-items-center justify-content-between navbar-sec"> <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
     <!-- Uncomment the line below if you also wish to use an image logo -->
     <img src="assets/img/LocAskLogo.png" alt=""> </a>
     <nav id="navbar" class="navbar">
@@ -59,30 +58,106 @@
       <i class="bi bi-list mobile-nav-toggle d-none"></i> </nav>
     <!-- .navbar -->
   </div>
+  <section id="hero-animated" class="Banner-Sec  d-flex align-items-start ">
+    <div class="container d-flex flex-column justify-content-start align-items-start text-left position-relative" data-aos="zoom-out">
+      <div class="Search-Sec col-md-8 mt-1">
+        <div class="Typing-Effacts-Sec" id="">
+          <h2>Search across ‘3.4 Crore+‘ <span class="typed-text"></span><span class="Typing-Effacts">&nbsp;</span></h2>
+          <h4>Discover the best Services, the city nearest to you.</h4>
+        </div>
+        <div class="search-form" id="search-form">
+          <form method="get" action="/" class="form-inline "  >
+            <input name="q" class="Search-Location box gBorder1" type="text"  placeholder="Search Location" >
+            <span class="Search-Service-Sec">
+            <input name="loc" class="Search-Service gBorder1" type="text"  placeholder="Search Services">
+            <button type="submit" class="btn btn-primary voice-Btn"> </button>
+            <button type="submit" class="btn btn-primary Search-Btn"> <i class="bi bi-search"></i></button>
+            </span>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
 </header>
 <!-- End Header -->
-<section id="hero-animated" class="Banner-Sec  d-flex align-items-start ">
-  <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
-    <div class="Search-Sec col-md-12 mt-3">
-      <div class="Typing-Effacts-Sec">
-        <h2>Search across ‘3.4 Crore+‘ <span class="typed-text"></span><span class="Typing-Effacts">&nbsp;</span></h2>
-        <h4>Discover the best Services, the city nearest to you.</h4>
+<main id="main" class="">
+<!-- ======= Offer Banner Section ======= -->
+<section id="" class="featured-services Looking-Sec offer-banner-sec ">
+  <div class="container">
+    <div class="row gy-5">
+      <div class="col-xl-6 col-md-6 d-flex" data-aos="zoom-out">
+        <div class="service-item position-relative"> <img src="assets/img/offer1.png" > <span class="explore-tag"><a href="" class="">explore</a></span> <span class="service-name">Repairs & Services</span> </div>
       </div>
-      <form method="get" action="/" class="form-inline" >
-        <input name="q" class="Search-Location box gBorder1" type="text"  placeholder="Search Location" >
-        <input name="loc" class="Search-Service gBorder1" type="text"  placeholder="Search Services">
-        <button type="submit" class="btn btn-primary voice-Btn"> </button>
-        <button type="submit" class="btn btn-primary Search-Btn"> <i class="bi bi-search"></i></button>
-      </form>
+      <!-- End Service Item -->
+      <div class="col-xl-6 col-md-6 d-flex" data-aos="zoom-out">
+        <div class="service-item position-relative"> <img src="assets/img/offer2.png" > <span class="explore-tag"><a href="" class="">explore</a></span> <span class="service-name">B2B marketplace</span> </div>
+      </div>
+      <!-- End Service Item -->
     </div>
   </div>
 </section>
-<main id="main">
+<!-- End Featured Services Section -->
 <!-- ======= What Are Looking  Section ======= -->
 <section id="" class="featured-services Looking-Sec">
   <div class="container">
-    <div class="row gy-4">
-      <h3 class="Heading-Sec">What are you looking for?</h3>
+    <div class="row gy-3">
+      <div class="section-header">
+        <h3 class="Heading-Sec">What are you looking for?</h3>
+      </div>
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
+        <div class="service-item position-relative"> <img src="assets/img/featured-services/Service1.png" > <span class="explore-tag"><a href="" class="">explore</a></span> <span class="service-name">Repairs & Services</span> </div>
+      </div>
+      <!-- End Service Item -->
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
+        <div class="service-item position-relative"> <img src="assets/img/featured-services/service2.png" > <span class="explore-tag"><a href="" class="">explore</a></span> <span class="service-name">B2B marketplace</span> </div>
+      </div>
+      <!-- End Service Item -->
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
+        <div class="service-item position-relative"> <img src="assets/img/featured-services/service3.png" > <span class="explore-tag"><a href="" class="">explore</a></span> <span class="service-name">Real estate</span> </div>
+      </div>
+      <!-- End Service Item -->
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
+        <div class="service-item position-relative"> <img src="assets/img/featured-services/service4.png" > <span class="explore-tag"><a href="" class="">explore</a></span> <span class="service-name">Doctor</span> </div>
+      </div>
+      <!-- End Service Item -->
+    </div>
+  </div>
+</section>
+<!-- End Featured Services Section -->
+<!-- ======= What Are Looking  Section ======= -->
+<section id="" class="featured-services Looking-Sec">
+  <div class="container">
+    <div class="row gy-3">
+      <div class="section-header">
+        <h3 class="Heading-Sec">What are you looking for?</h3>
+      </div>
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
+        <div class="service-item position-relative"> <img src="assets/img/featured-services/Service1.png" > <span class="explore-tag"><a href="" class="">explore</a></span> <span class="service-name">Repairs & Services</span> </div>
+      </div>
+      <!-- End Service Item -->
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
+        <div class="service-item position-relative"> <img src="assets/img/featured-services/service2.png" > <span class="explore-tag"><a href="" class="">explore</a></span> <span class="service-name">B2B marketplace</span> </div>
+      </div>
+      <!-- End Service Item -->
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
+        <div class="service-item position-relative"> <img src="assets/img/featured-services/service3.png" > <span class="explore-tag"><a href="" class="">explore</a></span> <span class="service-name">Real estate</span> </div>
+      </div>
+      <!-- End Service Item -->
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
+        <div class="service-item position-relative"> <img src="assets/img/featured-services/service4.png" > <span class="explore-tag"><a href="" class="">explore</a></span> <span class="service-name">Doctor</span> </div>
+      </div>
+      <!-- End Service Item -->
+    </div>
+  </div>
+</section>
+<!-- End Featured Services Section -->
+<!-- ======= What Are Looking  Section ======= -->
+<section id="" class="featured-services Looking-Sec">
+  <div class="container">
+    <div class="row gy-3">
+      <div class="section-header">
+        <h3 class="Heading-Sec">What are you looking for?</h3>
+      </div>
       <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
         <div class="service-item position-relative"> <img src="assets/img/featured-services/Service1.png" > <span class="explore-tag"><a href="" class="">explore</a></span> <span class="service-name">Repairs & Services</span> </div>
       </div>
@@ -106,7 +181,7 @@
 <!-- ======= Service Category Section ======= -->
 <section id="features" class="features service-category-sec">
   <div class="container" data-aos="fade-up">
-    <ul class="nav row gy-4 d-flex">
+    <ul class="nav row gy-3 d-flex">
       <li class="nav-item col-6 col-md-4 col-lg-2"> <a class="nav-link active show" > <img src="assets/img/ServiceCategory/restaurant1.png" alt="" width="">
         <h4>Restaurants</h4>
         </a> </li>
@@ -194,10 +269,10 @@
 <!-- ======= Other Service Section ======= -->
 <section id="services" class="services other-service-sec">
   <div class="container" data-aos="fade-up">
-    <div class="section-header">
-      <h3 class="Heading-Sec">Beauty & Spa</h3>
-    </div>
-    <div class="row gy-5">
+    <div class="row gy-3">
+      <div class="section-header">
+        <h3 class="Heading-Sec">Beauty & Spa</h3>
+      </div>
       <div class="col-xl-4 col-md-4" data-aos="zoom-in" data-aos-delay="200">
         <div class="service-item">
           <div class="img"> <img src="assets/img/featured-services/servicecat1.png" class="img-fluid" alt=""> </div>
@@ -232,10 +307,10 @@
 <!-- ======= Other Service Section(Repairs & Services) ======= -->
 <section id="services" class="services other-service-sec">
   <div class="container" data-aos="fade-up">
-    <div class="section-header">
-      <h3 class="Heading-Sec">Repairs & Services</h3>
-    </div>
-    <div class="row gy-5">
+    <div class="row gy-3">
+      <div class="section-header">
+        <h3 class="Heading-Sec">Repairs & Services</h3>
+      </div>
       <div class="col-xl-4 col-md-4" data-aos="zoom-in" data-aos-delay="200">
         <div class="service-item">
           <div class="img"> <img src="assets/img/featured-services/servicecat1.png" class="img-fluid" alt=""> </div>
@@ -270,10 +345,10 @@
 <!-- ======= Other Service Section ======= -->
 <section id="services" class="services other-service-sec">
   <div class="container" data-aos="fade-up">
-    <div class="section-header">
-      <h3 class="Heading-Sec">Daily Needs</h3>
-    </div>
-    <div class="row gy-5">
+    <div class="row gy-3">
+      <div class="section-header">
+        <h3 class="Heading-Sec">Daily Needs</h3>
+      </div>
       <div class="col-xl-4 col-md-4" data-aos="zoom-in" data-aos-delay="200">
         <div class="service-item">
           <div class="img"> <img src="assets/img/featured-services/servicecat7.png" class="img-fluid" alt=""> </div>
@@ -311,7 +386,9 @@
     <div class="row gy-5">
       <div class="col-xl-6 col-md-6 inner-payment-sec payment-sec-left">
         <div class="content d-flex flex-column justify-content-center h-100">
-          <h3 class="Heading-Sec">Daily Needs</h3>
+          <div class="section-header">
+            <h3 class="Heading-Sec">Daily Needs</h3>
+          </div>
           <h5>Pay your bills & recharge </br>
             instantly with Justdial</h5>
           <div class="payment-nav">
@@ -358,7 +435,9 @@
       </div>
       <div class="col-xl-6 col-md-6 inner-payment-sec payment-sec-right">
         <div class="content d-flex flex-column justify-content-center h-100">
-          <h3 class="Heading-Sec">Travel Bookings</h3>
+          <div class="section-header">
+            <h3 class="Heading-Sec">Travel Bookings</h3>
+          </div>
           <h5>Instant Ticket Bookings For Your</br>
             Best Travel Experience </h5>
           <div class="payment-nav">
@@ -375,7 +454,6 @@
                 <h4>Bus</h4>
                 </a> </li>
               <!-- End Tab 1 Nav -->
-             
               <li class="col-6 col-md-4 col-lg-4">
                 <p><img src="assets/img/icons/icon _Subway_.png" width=""></p>
                 <a class="nav-link" >
@@ -405,31 +483,33 @@
 <!-- ======= Popular Brands Section ======= -->
 <section id="clients" class="clients">
   <div class="container" data-aos="zoom-out">
-    <div class="section-header">
-      <h3 class="Heading-Sec">Popular Brands</h3>
-    </div>
-    <div class="clients-slider swiper">
-      <div class="swiper-wrapper align-items-center">
-        <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+    <div class="row gy-3">
+      <div class="section-header">
+        <h3 class="Heading-Sec">Popular Brands</h3>
+      </div>
+      <div class="clients-slider swiper">
+        <div class="swiper-wrapper align-items-center">
+          <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 <!-- End Popular Brands Section -->
 <!-- ======= Recent Blog Posts Section ======= -->
-<section id="recent-blog-posts" class="recent-blog-posts recent-activity">
-<div class="container" data-aos="fade-up">
-<div class="section-header">
-  <h3 class="Heading-Sec">Recent Activity</h3>
-</div>
-<div class="row">
+<section id="recent-blog-posts" class="recent-blog-posts recent-activity" >
+<div class="container" data-aos="fade-up" >
+<div class="row gy-3">
+  <div class="section-header">
+    <h3 class="Heading-Sec">Recent Activity</h3>
+  </div>
   <div class="col-lg-3 recent-activity-item" data-aos="fade-up" data-aos-delay="200">
     <div class="post-box">
       <div class="rating-tag">5.0</div>
@@ -438,7 +518,7 @@
       <h5 class="post-location">Bhavnagar HO - Bhavnagar</h5>
       <div class="partition"></div>
       <p>This is one of the best restaurant they provide fresh food and great ambience and very clean place and they provide good quality foods, and also quantity and it`s...</p>
-      <div class="meta post-meta"><img src="assets/img/testimonials/testimonials-3.jpg" class="author-pic" ><span class="post-author"> apoorva</span> <span class="post-date">Tue, December 12</span> </div>
+      <div class="meta post-meta"><img src="assets/img/blog/4.jpg" class="author-pic" ><span class="post-author"> apoorva</span> <span class="post-date">Tue, December 12</span> </div>
     </div>
   </div>
   <div class="col-lg-3 recent-activity-item" data-aos="fade-up" data-aos-delay="200">
@@ -449,7 +529,7 @@
       <h5 class="post-location">Bhavnagar HO - Bhavnagar</h5>
       <div class="partition"></div>
       <p>This is one of the best restaurant they provide fresh food and great ambience and very clean place and they provide good quality foods, and also quantity and it`s...</p>
-      <div class="meta post-meta"><img src="assets/img/testimonials/testimonials-3.jpg" class="author-pic" ><span class="post-author"> apoorva</span> <span class="post-date">Tue, December 12</span> </div>
+      <div class="meta post-meta"><img src="assets/img/blog/4.jpg" class="author-pic" ><span class="post-author"> apoorva</span> <span class="post-date">Tue, December 12</span> </div>
     </div>
   </div>
   <div class="col-lg-3 recent-activity-item" data-aos="fade-up" data-aos-delay="200">
@@ -460,7 +540,7 @@
       <h5 class="post-location">Bhavnagar HO - Bhavnagar</h5>
       <div class="partition"></div>
       <p>This is one of the best restaurant they provide fresh food and great ambience and very clean place and they provide good quality foods, and also quantity and it`s...</p>
-      <div class="meta post-meta"><img src="assets/img/testimonials/testimonials-3.jpg" class="author-pic" ><span class="post-author"> apoorva</span> <span class="post-date">Tue, December 12</span> </div>
+      <div class="meta post-meta"><img src="assets/img/blog/4.jpg" class="author-pic" ><span class="post-author"> apoorva</span> <span class="post-date">Tue, December 12</span> </div>
     </div>
   </div>
   <div class="col-lg-3 recent-activity-item" data-aos="fade-up" data-aos-delay="200">
@@ -471,14 +551,12 @@
       <h5 class="post-location">Bhavnagar HO - Bhavnagar</h5>
       <div class="partition"></div>
       <p>This is one of the best restaurant they provide fresh food and great ambience and very clean place and they provide good quality foods, and also quantity and it`s...</p>
-      <div class="meta post-meta"><img src="assets/img/testimonials/testimonials-3.jpg" class="author-pic" ><span class="post-author"> apoorva</span> <span class="post-date">Tue, December 12</span> </div>
+      <div class="meta post-meta"><img src="assets/img/blog/4.jpg" class="author-pic" ><span class="post-author"> apoorva</span> <span class="post-date">Tue, December 12</span> </div>
     </div>
   </div>
 </div>
 </section>
 <!-- End Recent Blog Posts Section -->
-</main>
-<!-- End #main -->
 <!-- ======= Footer ======= -->
 <footer id="footer" class="footer">
   <div class="footer-content">
@@ -550,6 +628,8 @@
   </div>
 </footer>
 <!-- End Footer -->
+</main>
+<!-- End #main -->
 <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 <div id="preloader"></div>
 <!-- Vendor JS Files -->
