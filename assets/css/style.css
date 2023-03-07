@@ -426,8 +426,11 @@ background: none;
 }
 /*-------------  4.1 Desktop Navigation -------------------*/
 .navbar-sec {
-	border-bottom:1px solid #E8E8E8;
-	background-color: #ffffff;
+	border-bottom: 1px solid #E8E8E8;
+    background-image: url(../img/13554-%5BConverted%5D.png);
+    background-repeat: repeat-x;
+    background-size: 50%;
+    background-position: bottom center;
 }
 @media (min-width: 1280px) {
  .navbar {
@@ -455,7 +458,7 @@ background: none;
  font-family: var(--font-secondary);
  font-size: 15px;
  font-weight: 400;
- color: rgba(var(--color-secondary-dark-rgb), 0.7);
+ color: var(--color-primary); font-weight:bold;
  white-space: nowrap;
  transition: 0.3s;
  position: relative;
